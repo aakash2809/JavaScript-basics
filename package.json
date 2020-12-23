@@ -1,0 +1,19 @@
+{
+  "name": "javascriptbasics",
+  "version": "1.0.0",
+  "description": "basics of JavaScript\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[B\u001b[Ca\u001b[D\u001bas\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aakash2809/JavaScript-basics.git"
+  },
+  "author": "aakash \u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[A\u001b[D\u001b[a\u001b[D\u001b[CA\u001b[D\u001b[D\u001b[C\u001bAa\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aakash2809/JavaScript-basics/issues"
+  },
+  "homepage": "https://github.com/aakash2809/JavaScript-basics#readme"
+}
