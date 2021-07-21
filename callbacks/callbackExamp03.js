@@ -1,12 +1,17 @@
-setTimeout(() => {
+/* setTimeout(() => {
     console.log("timer")
-}, 5000);
+}, 5000); */
 
-function x(y){
-    console.log("x");
+/* abc = () => {
+    console.log("timer1")
+} */
+
+function x(y) {
     y();
+    console.log("x");
 }
 
-x(function y(){
+x(function y() {
     console.log("y");
 });
+

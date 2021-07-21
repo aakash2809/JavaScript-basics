@@ -15,6 +15,7 @@ multiply = (a, b) => {
 }
 
 calculator = (callback, x, y) => {
+    
     return callback(x, y);
 }
 
