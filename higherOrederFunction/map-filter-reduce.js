@@ -1,24 +1,24 @@
 users = [
-    {
-        name: 'Yazeed',
-        age: 25
-    },
-    {
-        name: 'Sam',
-        age: 30
-    },
-    {
-        name: 'Bill',
-        age: 20
-    }
+  {
+    name: 'Yazeed',
+    age: 25
+  },
+  {
+    name: 'Sam',
+    age: 30
+  },
+  {
+    name: 'Bill',
+    age: 20
+  }
 ];
 
 getName = (user) => user.name;
 usernames = [];
 
 for (let i = 0; i < users.length; i++) {
-    const name = getName(users[i]);
-    usernames.push(name);
+  const name = getName(users[i]);
+  usernames.push(name);
 }
 console.log(usernames);
 
@@ -33,11 +33,9 @@ for (let i = 0; i < users.length; i++) {
 }
 console.log(namesStartingWithB);
 
-
 //map
 usernames = users.map(getName);
 console.log(usernames);
-
 
 //filter
 namesStartingWithB = users.filter((user) => startsWithB(user.name));
