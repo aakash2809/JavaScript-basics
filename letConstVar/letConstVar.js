@@ -5,11 +5,9 @@
  * let vaiable can be assign value any where after declartion
  * var vaiable can be assign value any where after declartion even before declartion but it should be decalare
  * some where in its scope.
- *
+ * 
  *
  */
-
-
 
 // *********************************  var, let ******************************************
 // output 6 times 6 because var is globaly socoped create single copy of variable
@@ -17,14 +15,14 @@
     setTimeout(() => {
         console.log(i)
     }, 5000);
-} */
-
+}
+ */
 // output 1 to 5 because let is functional socoped create seprate copy of variable
 /* for (let i = 1; i <= 5; i++) {
     setTimeout(() => {
         console.log(i)
     }, 5000);
-} *
+} */
 
 //******************************************************************************************** */
 
@@ -41,20 +39,18 @@ setTimeout(() => {
     temprature = 25;
     console.log(`updated temprature is ${temprature} degree celcious`);
 }, 1000);
-*/
-
-
+ */
 
 //  let:  Here above same code work fine let can be assign again,
-/* let temprature = 40;
+let temprature = 40;
 
 console.log(`current temprature is ${temprature} degree celcious`);
 
 setTimeout(() => {
     temprature = 25;
     console.log(`updated temprature is ${temprature} degree celcious`);
-}, 1000); */
-// *****************************************************************************************
+}, 1000);
+// ********************************************************************************************
 
 
 
@@ -91,5 +87,9 @@ var b; */
 
 //******************************************************************************************** */
 
+console.log(b);
 
+let a = 10;
+
+var b = 100;
 

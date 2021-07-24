@@ -25,8 +25,8 @@ double = (arrayElement) => {
 
 let output = arr.map(double);
 
-console.log(output);
- */
+console.log(output); */
+
 
 // -----------------------------------------------------------------------------------------------------
 

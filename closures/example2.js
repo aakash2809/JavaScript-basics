@@ -20,7 +20,7 @@ x(); */
 x(); */
 
 // o/p 
-// solution use  then o/p 1 to 5
+// solution use let then o/p 1 to 5
 x = () => {
     for (var i = 1; i <= 5; i++) {
         view = (i) => {
